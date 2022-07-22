@@ -128,7 +128,7 @@ section {
 
 .hero {
 
-    background-image: url("/Users/ninaserebryakova/desktop/projects/run-buddy/assets/images/hero-bg.png");
+    background-image: url("../images/hero-bg.png");
 
     height: 600px;
 
