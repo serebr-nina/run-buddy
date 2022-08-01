@@ -12,4 +12,5 @@ https://lernantino.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Nina Serebryakova
-# run-buddy
+
+### ©️2019 Run Buddy, Inc 
