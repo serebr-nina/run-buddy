@@ -188,6 +188,7 @@ section {
     text-align: center;
     margin: 0 auto 35px auto;
     width: 50%;
+    border-bottom: 3px solid;
 }
 
 .primary-border {
@@ -286,7 +287,7 @@ section {
 /* MEET THE TRAINERS START */
 
 .trainers {
-    text-align: center;
+    text-align: left;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -348,75 +349,43 @@ section {
 .contact {
     background: #024e76;
 }
-/*.contact {
-    text-align: center;
-    background: #024e76;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-content: center;
-    align-items: stretch;
-    flex-wrap: wrap;
-}*/
-.contact1 {
-    text-align: center;
-    background: #024e76;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-content: center;
-    align-items: stretch;
-    flex-wrap: wrap;
-}
+
 .contact h2 {
     color: #fce138;
-
 }
+
 .secondary-border {
     border-color: #39a6b2;
 }
 
 .contact-info {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
     align-content: center;
-    align-items: baseline;
+    align-items:stretch;
+    flex-wrap: wrap;
+}
+
+.contact-info h3, .contact-form h3 {
+    color: #fce138;
+    font-size: 32px;
+    text-align: left;
 }
 
 .contact-info iframe {    
-    height: 400px;
-    float: left;
-    margin: 0 25px 30px 100px;
-    
-}
-
-.text-right {
-    text-align: left;
+    height: 400px;    
 }
 
 .contact-info div {
-    color: yellow;
-    
-    
+    color: white;    
 }
 
-.contact-info h3 {
-    color: #fce138;
-    font-size: 30px;
-    text-align: center;
-}
-
-.contact-info p,
-.contact-info address {
+.contact-info p, .contact-info address {
     margin: 20px 0;
-    line-height: 2.0;
+    line-height: 1.5;
     font-size: 16px;
-    font-style: normal;
-    text-align: left;
-    color: white;
-    
+    font-style: normal;  
 }
 
 .contact-info a {
@@ -428,13 +397,14 @@ section {
     flex: 1;
     margin: 15px;
 }
-.contact-form h3 {
+
+.contact-info h3, .contact-form h3 {
     color: #fce138;
-    font-size: 30px;
+    font-size: 32px;
     text-align: left;
 }
-.contact-form input,
-.contact-form textarea {
+
+.contact-form input, .contact-form textarea {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
@@ -457,10 +427,23 @@ section {
 /* REACH OUT STYLES END */
 
 /* UTILITIES */
+
+.primary-border {
+    border-color: #fce138;
+}
+  
+.secondary-border {
+    border-color: #39a6b2;
+}
+
 .text-left {
     text-align: left;
 }
   
 .text-right {
     text-align: right;
+}
+
+.flex-row {
+    display: flex;
 }
