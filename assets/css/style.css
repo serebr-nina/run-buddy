@@ -71,6 +71,7 @@ footer h2 {
     width: 100%;
     color: #024e76;
     font-size: 30px;
+    padding: 10px;
     
 }
 
@@ -183,7 +184,6 @@ section {
 /* SECTION TITLE STYLES START */
 .section-title {
     font-size: 48px;
-    /*was55px*/
     color: #024e76;
     margin-bottom: 35px;
     padding-bottom: 20px;
@@ -204,7 +204,7 @@ section {
 /* SECTION TITLE STYLES END */
 
 
-/* WHAT WE DO STYLES START*/
+/* WHAT WE DO STYLES START */
 
 .intro {
     text-align: center;
@@ -219,7 +219,7 @@ section {
     text-align: center;
 }
 
-/*WHAT WE DO STYLES END*/
+/* WHAT WE DO STYLES END */
 
 /* WHAT YOU DO STYLES START */
 .steps {
